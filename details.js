@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const animeId = urlParams.get("id") || "defaultAnimeId";
-const apiUrl = `https://aniwatch-api-net.vercel.app/api/v2/hianime/anime/${animeId}`;
+const apiUrl = `https://streaming23.vercel.app/api/v2/hianime/anime/${animeId}`;
 
 fetch(apiUrl)
   .then((response) => response.json())
